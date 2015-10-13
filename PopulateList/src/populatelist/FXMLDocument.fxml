@@ -10,5 +10,14 @@
   <children>
     <Button fx:id="button" layoutX="128.0" layoutY="85.0" onAction="#handleButtonAction" text="Click Me!" />
     <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane fx:id="lvpeople" layoutX="241.0" layoutY="98.0" prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <ListView layoutX="-4.0" layoutY="-17.0" prefHeight="205.0" prefWidth="236.0" />
+         </children>
+      </AnchorPane>
+      <TextField fx:id="tfFirstName" layoutX="195.0" layoutY="334.0" />
+      <TextField fx:id="tfLastName" layoutX="355.0" layoutY="334.0" />
+      <Label layoutX="241.0" layoutY="317.0" text="First Name" />
+      <Label layoutX="402.0" layoutY="317.0" text="Last Name" />
   </children>
 </AnchorPane>
